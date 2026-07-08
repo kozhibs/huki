@@ -3,8 +3,8 @@
   flake.nixosModules.dyukoConfiguration = { pkgs, lib, ... }: {
     imports = [
       self.nixosModules.dyukoHardware
-      self.nixosModules.helix
-      self.nixosModules.niri 
+      self.nixosModules.niri
+      self.nixosModules.hjem 
     ];
 
     boot.loader.systemd-boot.enable = true;
