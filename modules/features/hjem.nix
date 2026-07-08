@@ -1,16 +1,19 @@
-{ self, inputs, ... }: {
-  flake.nixosModules.hjem = { config, lib, pkgs, ... }: {
+{ inputs, ... }: {
+  flake.nixosModules.hjem = { config, ... }: {
     imports = [
-      self.nixosModules.helix
+      inputs.hjem.nixosModules.default
     ];
 
-    hjem = {
-    clobberByDefault = true;
-    users.yourusername = {
-      enable = true;
-      directory = "/home/yourusername";
-      user = "yourusername";
-   };
+    config = {
+      hjem = {
+        users.taito = {
+          enable = true;
+          directory = "/home/taito";
+          user = "taito";
+        };
+
+        clobberByDefault = true;
+      };
+    };
   };
- };
 }

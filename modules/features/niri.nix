@@ -16,13 +16,18 @@
 
         xwayland-satellite.path = lib.getExe pkgs.xwayland-satellite;
 
-        input.keyboard.xkb.layout = "us,ru";
-
-        layout.gaps = 5;
-
-        focus-ring = {
-          width = 2;
-          active-color = "#7b8c73";
+        layout = {
+          gaps = 5;
+          focus-ring = {
+            enable = true;
+            width = 2;
+            active-color = "#7b8c73";
+            inactive-color = "#232422";
+          };
+          border = {
+            enable = false;
+            width = 1;
+          };
         };
 
         binds = {
