@@ -3,6 +3,7 @@
   flake.nixosModules.dyukoConfiguration = { pkgs, lib, ... }: {
     imports = [
       self.nixosModules.dyukoHardware
+      self.nixosModules.helix
       self.nixosModules.niri 
     ];
 
