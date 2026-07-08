@@ -8,6 +8,7 @@
       zoxide
       fuzzel
       fish
+      nerd-fonts.iosevka
       starship     
     ];
   };
