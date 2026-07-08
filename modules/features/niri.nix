@@ -19,13 +19,12 @@
         layout = {
           gaps = 5;
           focus-ring = {
-            enable = true;
             width = 2;
             active-color = "#7b8c73";
             inactive-color = "#232422";
           };
           border = {
-            enable = false;
+            off = true;
             width = 1;
           };
         };
