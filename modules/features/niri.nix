@@ -20,11 +20,16 @@
 
         layout.gaps = 5;
 
+        focus-ring = {
+          width = 2;
+          active-color = "#7b8c73";
+        };
+
         binds = {
-          "Mod+Return".spawn-sh = lib.getExe pkgs.alacritty;
+          "Mod+T".spawn-sh = lib.getExe pkgs.alacritty;
           "Mod+Q".close-window = [];
           "Mod+B".spawn-sh = lib.getExe pkgs.firefox;
-          "Mod+S".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call launcher toggle";
+          "Mod+Shift+S".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call launcher toggle";
         };
       };
     };
