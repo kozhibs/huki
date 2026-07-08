@@ -6,7 +6,6 @@
       ripgrep
       eza
       zoxide
-      ld
       fuzzel
       fish
       starship     
