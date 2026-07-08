@@ -24,7 +24,7 @@
             inactive-color = "#232422";
           };
           border = {
-            off = true;
+            off = [];
             width = 1;
           };
         };
