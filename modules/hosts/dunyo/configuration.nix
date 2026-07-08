@@ -4,7 +4,8 @@
     imports = [
       self.nixosModules.dyukoHardware
       self.nixosModules.niri
-      self.nixosModules.hjem 
+      self.nixosModules.hjem
+      self.nixosModules.packages 
     ];
 
     boot.loader.systemd-boot.enable = true;

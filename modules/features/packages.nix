@@ -2,14 +2,14 @@
   flake.nixosModules.packages = { config, pkgs, lib, ... }: {
     programs.nix-ld.enable = true;
 
-    environment.systemPackages = with pkgs; {
+    environment.systemPackages = with pkgs; [
       ripgrep
-      zoxide
       eza
+      zoxide
       ld
       fuzzel
       fish
       starship     
-    };
+    ];
   };
 }
