@@ -20,7 +20,7 @@
           gaps = 5;
           focus-ring = {
             width = 2;
-            active-color = "#7b8c73";
+            active-color = "#95ad89";
             inactive-color = "#232422";
           };
           border = {
