@@ -36,7 +36,7 @@
             "icon": "rocket",
             "iconColor": "none",
             "id": "Launcher",
-            "useDistroLogo": false
+            "useDistroLogo": true
           },
           {
             "clockColor": "none",
@@ -162,14 +162,14 @@
             "textColor": "none"
           },
           {
-            "colorizeDistroLogo": false,
+            "colorizeDistroLogo": true,
             "colorizeSystemIcon": "none",
             "colorizeSystemText": "none",
             "customIconPath": "",
             "enableColorization": false,
             "icon": "noctalia",
             "id": "ControlCenter",
-            "useDistroLogo": false
+            "useDistroLogo": true
           }
         ]
       },
