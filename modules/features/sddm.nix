@@ -10,6 +10,8 @@
       ];
     };
 
+    qt.enable = true;
+
     programs.qylock = {
       enable = true;
       theme = "field";
