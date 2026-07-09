@@ -43,7 +43,7 @@
           "Mod+Q".close-window = [];
           "Mod+B".spawn-sh = lib.getExe pkgs.firefox;
           "Mod+D".spawn-sh = lib.getExe pkgs.fuzzel;
-          "Mod+Shift+M".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call launcher toggle";
+          "Mod+Space".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call launcher toggle";
 
           "Mod+1".focus-workspace = "w0";
           "Mod+2".focus-workspace = "w1";
