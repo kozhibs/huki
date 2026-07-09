@@ -38,6 +38,6 @@
       nerd-fonts.iosevka
       nerd-fonts.iosevka-term
     ];
-    fontconfig.enable = true;
+    fonts.fontconfig.enable = true;
   };
 }
