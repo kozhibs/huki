@@ -1,9 +1,5 @@
 { self, inputs, ... }: {
   flake.nixosModules.alacritty = { pkgs, lib, ... }: {
-    programs.alacritty = {
-      enable = true;
-    };
-
     hjem.users.taito.xdg.config.files."alacritty/alacritty.toml".text = ''
       [window]
       opacity = 0.9
