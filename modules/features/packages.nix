@@ -2,8 +2,7 @@
   flake.nixosModules.packages = { config, pkgs, lib, ... }: {
     programs.nix-ld.enable = true;
 
-    programs.sddm.enable = true;
-    programs.quickshell.enable = true;
+    services.displayManager.sddm.enable = true;
 
     environment.systemPackages = with pkgs; [
       ripgrep
