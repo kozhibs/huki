@@ -3,7 +3,7 @@
     programs.starship.enable = true;
 
     hjem.users.taito.xdg.config.files."starship.toml".text = ''
-      add_newline = false;
+      add_newline = false
 
       format = """
         $directory\
@@ -19,7 +19,7 @@
       [directory]
       format = "[$path]($style)"
       style = "white"
-      truncation_length = 4;
+      truncation_length = 4
       truncate_to_repo = true
 
       [git_branch]
