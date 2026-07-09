@@ -7,12 +7,13 @@
     wrapper-modules.url = "github:BirdeeHub/nix-wrapper-modules";
     nh.url = "github:nix-community/nh";
     hjem.url = "github:feel-co/hjem";
+    freesm-launcher.url = "github:FreesmTeam/FreesmLauncher";
   };
 
   outputs =
-  inputs:
-  inputs.flake-parts.lib.mkFlake { inherit inputs; } {
-    systems = [ "x86_64-linux" ];
-    imports = [ (inputs.import-tree ./features ) ];
-  };
+    inputs:
+    inputs.flake-parts.lib.mkFlake { inherit inputs; } {
+      systems = [ "x86_64-linux" ];
+      imports = [ (inputs.import-tree ./features) ];
+    };
 }
