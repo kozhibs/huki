@@ -29,6 +29,8 @@
 
       fuzzel
       fish
+      flatpak
+      flatseal
       throne
       alacritty
       kitty
