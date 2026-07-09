@@ -2,7 +2,7 @@
   flake.nixosModules.throne = { pkgs, ... }: {
     programs.throne = {
       enable = true;
-      enableTunMode = true;
+      tunMode.enable = true;
     };
   };
 }
