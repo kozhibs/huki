@@ -34,6 +34,7 @@
       alacritty
       kitty
       starship     
+      nixfmt
     ];
 
     services.flatpak.enable = true;

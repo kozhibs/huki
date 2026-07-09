@@ -22,6 +22,13 @@
 
       [editor.lsp]
       display-messages = true
-    '';
+
+      [language]
+      name = "nix"
+      autoformat = true
+
+      [language.formatter]
+      command = "nixfmt"
+     '';
   };
 }
