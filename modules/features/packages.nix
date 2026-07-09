@@ -14,8 +14,8 @@
       kdePackages.sddm
       qt6.qtdeclarative
       qt6.qt5compat
-      kdePackages.qt5-graphicaleffects
-      kdePackages.qt5-quickcontrols2
+      qt5.qtgraphicaleffects
+      qt5.qtquickcontrols2
       qt6.qtmultimedia
       gst_all_1.gst-plugins-base
       gst_all_1.gst-plugins-good
