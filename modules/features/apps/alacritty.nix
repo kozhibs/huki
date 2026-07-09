@@ -4,7 +4,7 @@
       enable = true;
     };
 
-    hjem.users.taito.files.".config/alacritty/alacritty.toml".text = ''
+    hjem.users.taito.xdg.config.files."alacritty/alacritty.toml".text = ''
       [window]
       opacity = 0.9
       decorations = "none"
