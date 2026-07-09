@@ -22,13 +22,14 @@
 
       [editor.lsp]
       display-messages = true
+     '';
 
+    hjem.users.taito.xdg.config.files."helix/languages.toml".text = ''
       [[language]]
       name = "nix"
-      autoformat = true
-
-      [language.formatter]
-      command = "nixfmt"
-     '';
+      language-servers = ["nil"]
+      formatter = { command = "nixfmt" }
+      auto-format = true
+    '';
   };
 }
