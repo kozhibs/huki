@@ -7,6 +7,7 @@
       self.nixosModules.sddm
       self.nixosModules.nh
       self.nixosModules.hjem
+      self.nixosModules.helix
       self.nixosModules.packages 
     ];
 
