@@ -3,6 +3,7 @@
   flake.nixosModules.dunyoConfig = { pkgs, lib, ... }: {
     imports = [
       self.nixosModules.dunyoHardware
+      self.nixosModules.alacritty
       self.nixosModules.niri
       self.nixosModules.sddm
       self.nixosModules.nh
