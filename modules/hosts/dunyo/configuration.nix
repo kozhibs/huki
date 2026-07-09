@@ -32,7 +32,7 @@
     services.xserver.enable = true;
 
     services.displayManager.sddm.enable = true;
-    services.desktopManager.gnome.enable = true;
+    services.desktopManager.gnome.enable = false;
 
     services.xserver.xkb = {
       layout = "us";
