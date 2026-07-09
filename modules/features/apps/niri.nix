@@ -29,6 +29,10 @@
           };
         };
 
+        window-rule = {
+          geometry-corner-radius = 14;
+        };
+
         input = {
           touchpad = {
             tap = [];
