@@ -5,17 +5,10 @@
       opacity = 0.9
       decorations = "none"
 
-      [font.normal]
-      family = "Iosevka Nerd Font"
-      style = "DemiBold"
-
-      [font.italic]
-      family = "Iosevka Nerd Font"
-      style = "Italic"
-
-      [font.bold]
-      family = "Iosevka Nerd Font"
-      style = "Bold"
+      [font]
+      normal = { family = "Iosevka Nerd Font", style = "Regular" }
+      bold = { family = "Iosevka Nerd Font", style = "Bold" }
+      italic = { family = "Iosevka Nerd Font", style = "Italic" }
     '';
   };
 }
