@@ -31,6 +31,7 @@
 
         window-rule = {
           geometry-corner-radius = 14;
+          clip-to-geometry = true;
         };
 
         input = {
