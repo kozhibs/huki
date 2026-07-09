@@ -12,7 +12,8 @@
       self.nixosModules.fish
       self.nixosModules.throne
       self.nixosModules.starship
-      self.nixosModules.packages 
+      self.nixosModules.packages
+      self.nixosModules.minecraft
     ];
 
     boot.loader.systemd-boot.enable = true;
@@ -22,10 +23,13 @@
 
     networking.hostName = "dunyo";
     networking.networkmanager.enable = true;
-  
+
     nix.settings = {
-      experimental-features = [ "nix-command" "flakes" ];
-   };
+      experimental-features = [
+        "nix-command"
+        "flakes"
+      ];
+    };
 
     time.timeZone = "Europe/Moscow";
     i18n.defaultLocale = "en_US.UTF-8";
@@ -57,7 +61,10 @@
       isNormalUser = true;
       description = "taito";
       shell = pkgs.fish;
-      extraGroups = [ "networkmanager" "wheel" ];
+      extraGroups = [
+        "networkmanager"
+        "wheel"
+      ];
       packages = with pkgs; [
         thunderbird
       ];
