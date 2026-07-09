@@ -8,7 +8,7 @@
       ripgrep
       eza
       zoxide
-      sddm
+      kdePackages.sddm
       fuzzel
       fish
       nerd-fonts.iosevka
