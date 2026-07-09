@@ -7,7 +7,7 @@
 
       format = """
         $directory\
-        [at ](bold white)\
+        [ at ](bold white)\
         $username\
         $git_branch\
         $git_status\
@@ -23,7 +23,7 @@
       truncate_to_repo = true
 
       [git_branch]
-      symbol = ""
+      symbol = " "
       format = "on [$symbol$branch]($style) "
       style = "Bold White"
 
