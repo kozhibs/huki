@@ -9,7 +9,7 @@
       normal = { family = "Iosevka Nerd Font", style = "Regular" }
       bold = { family = "Iosevka Nerd Font", style = "Bold" }
       italic = { family = "Iosevka Nerd Font", style = "Italic" }
-      size = 13.0
+      size = 14.0
     '';
   };
 }
