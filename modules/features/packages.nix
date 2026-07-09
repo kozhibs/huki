@@ -29,10 +29,15 @@
 
       fuzzel
       fish
-      nerd-fonts.iosevka
-      nerd-fonts.iosevka-term
       alacritty
+      kitty
       starship     
     ];
+
+    fonts.packages = with pkgs; [
+      nerd-fonts.iosevka
+      nerd-fonts.iosevka-term
+    ];
+    fontconfig.enable = true;
   };
 }

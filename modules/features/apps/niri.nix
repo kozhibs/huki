@@ -39,7 +39,7 @@
         };
 
         binds = {
-          "Mod+T".spawn-sh = lib.getExe pkgs.alacritty;
+          "Mod+T".spawn-sh = lib.getExe pkgs.kitty;
           "Mod+Q".close-window = [];
           "Mod+B".spawn-sh = lib.getExe pkgs.firefox;
           "Mod+D".spawn-sh = lib.getExe pkgs.fuzzel;
