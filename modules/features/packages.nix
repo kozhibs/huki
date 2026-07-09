@@ -30,6 +30,7 @@
       fuzzel
       fish
       nerd-fonts.iosevka
+      alacritty
       starship     
     ];
   };
