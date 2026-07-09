@@ -43,6 +43,7 @@
         starship
         nixfmt
         nil
+        htop
       ];
 
       services.flatpak.enable = true;
