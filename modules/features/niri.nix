@@ -17,12 +17,6 @@
         xwayland-satellite.path = lib.getExe pkgs.xwayland-satellite;
 
         layout = {
-          keyboard = {
-            xkb = {
-              layout = "us,ru";
-              options = "grp:shift_alt_toggle:escape";
-            };
-          };
           gaps = 5;
           focus-ring = {
             width = 2;
@@ -32,6 +26,15 @@
           border = {
             off = [];
             width = 1;
+          };
+        };
+
+        input = {
+          keyboard = {
+            xkb = {
+              layout = "us,ru";
+              options = "grp:shift_alt_toggle,compose:ralt,ctrl:nospace"
+            };
           };
         };
 
