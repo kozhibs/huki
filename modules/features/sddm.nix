@@ -17,6 +17,8 @@
       ];
     };
 
+    console.font = lib.mkDefault "Lat2-Terminus16";
+
     qt.enable = true;
 
     programs.qylock = {
