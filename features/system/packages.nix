@@ -1,48 +1,56 @@
 { self, inputs, ... }: {
-  flake.nixosModules.packages = { config, pkgs, lib, ... }: {
-    programs.nix-ld.enable = true;
+  flake.nixosModules.packages =
+    {
+      config,
+      pkgs,
+      lib,
+      ...
+    }:
+    {
+      programs.nix-ld.enable = true;
 
-    services.displayManager.sddm.enable = true;
+      services.displayManager.sddm.enable = true;
 
-    environment.systemPackages = with pkgs; [
-      ripgrep
-      eza
-      zoxide
-      
-      kdePackages.qtwayland
-      kdePackages.qt5compat
-      kdePackages.qtmultimedia
-      kdePackages.sddm
+      environment.systemPackages = with pkgs; [
+        ripgrep
+        eza
+        zoxide
 
-      qt6.qtdeclarative
-      qt6.qt5compat
-      qt5.qtgraphicaleffects
-      qt5.qtquickcontrols2
-      qt6.qtmultimedia
+        kdePackages.qtwayland
+        kdePackages.qt5compat
+        kdePackages.qtmultimedia
+        kdePackages.sddm
 
-      gst_all_1.gst-plugins-base
-      gst_all_1.gst-plugins-good
-      gst_all_1.gst-plugins-bad
-      gst_all_1.gst-plugins-ugly
+        qt6.qtdeclarative
+        qt6.qt5compat
+        qt5.qtgraphicaleffects
+        qt5.qtquickcontrols2
+        qt6.qtmultimedia
 
-      fzf
+        gst_all_1.gst-plugins-base
+        gst_all_1.gst-plugins-good
+        gst_all_1.gst-plugins-bad
+        gst_all_1.gst-plugins-ugly
 
-      fuzzel
-      fish
-      flatpak
-      throne
-      alacritty
-      kitty
-      starship     
-      nixfmt
-    ];
+        fzf
 
-    services.flatpak.enable = true;
+        fuzzel
+        fish
+        flatpak
+        throne
+        alacritty
+        kitty
+        starship
+        nixfmt
+        nil
+      ];
 
-    fonts.packages = with pkgs; [
-      nerd-fonts.iosevka
-      nerd-fonts.iosevka-term
-    ];
-    fonts.fontconfig.enable = true;
-  };
+      services.flatpak.enable = true;
+
+      fonts.packages = with pkgs; [
+        nerd-fonts.iosevka
+        nerd-fonts.iosevka-term
+      ];
+      fonts.fontconfig.enable = true;
+    };
 }
