@@ -4,6 +4,8 @@
     imports = [
       self.nixosModules.dyukoHardware
       self.nixosModules.niri
+      self.nixosModules.sddm
+      self.nixosModules.nh
       self.nixosModules.hjem
       self.nixosModules.packages 
     ];
