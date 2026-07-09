@@ -44,6 +44,7 @@
         nixfmt
         nil
         htop
+        limine
       ];
 
       services.flatpak.enable = true;
