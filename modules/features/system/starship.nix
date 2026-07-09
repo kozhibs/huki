@@ -14,8 +14,7 @@
         $cmd_duration\
         $all\
         $line_break\
-        $character
-      """
+        $character"""
 
       [directory]
       format = "[$path]($style)"
