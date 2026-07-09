@@ -8,7 +8,18 @@
       ripgrep
       eza
       zoxide
+      kdePackages.qtwayland
+      kdePackages.qt5compat
+      kdePackages.qtmultimedia
       kdePackages.sddm
+      qt6.qtdeclarative
+      qt6.qt5compat
+      qt6.qtmultimedia
+      gst_all_1.gst-plugins-base
+      gst_all_1.gst-plugins-good
+      gst_all_1.gst-plugins-bad
+      gst_all_1.gst-plugins-ugly
+      fzf
       fuzzel
       fish
       nerd-fonts.iosevka
