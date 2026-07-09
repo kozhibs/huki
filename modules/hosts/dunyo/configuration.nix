@@ -9,6 +9,7 @@
       self.nixosModules.hjem
       self.nixosModules.helix
       self.nixosModules.fish
+      self.nixosModules.starship
       self.nixosModules.packages 
     ];
 
