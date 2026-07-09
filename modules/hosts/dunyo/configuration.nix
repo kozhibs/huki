@@ -8,6 +8,7 @@
       self.nixosModules.nh
       self.nixosModules.hjem
       self.nixosModules.helix
+      self.nixosModules.fish
       self.nixosModules.packages 
     ];
 
@@ -52,6 +53,7 @@
     users.users."taito" = {
       isNormalUser = true;
       description = "taito";
+      defaultShell = pkgs.fish;
       extraGroups = [ "networkmanager" "wheel" ];
       packages = with pkgs; [
         thunderbird
