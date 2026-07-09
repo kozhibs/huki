@@ -33,7 +33,7 @@
           keyboard = {
             xkb = {
               layout = "us,ru";
-              options = "grp:shift_alt_toggle,compose:ralt,ctrl:nospace"
+              options = "grp:shift_alt_toggle,compose:ralt,ctrl:nospace";
             };
           };
         };
