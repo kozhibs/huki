@@ -29,12 +29,19 @@
           };
         };
 
+        keyboard = {
+          xkb = {
+            layout = "us,ru";
+            options = "grp:shift_alt_toggle:escape";
+          };
+        };
+
         binds = {
           "Mod+T".spawn-sh = lib.getExe pkgs.alacritty;
           "Mod+Q".close-window = [];
           "Mod+B".spawn-sh = lib.getExe pkgs.firefox;
           "Mod+D".spawn-sh = lib.getExe pkgs.fuzzel;
-          "Mod+Shift+S".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call launcher toggle";
+          "Mod+Shift+M".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call launcher toggle";
         };
       };
     };
