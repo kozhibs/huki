@@ -5,7 +5,7 @@
       wayland.enable = true;
       settings = {
         Theme = {
-          CursorTheme = "Adwaita";
+          CursorTheme = "Bibata-Modern-Classic";
           CursorSize = 24;
         };
       };
@@ -13,6 +13,7 @@
         qt6.qt5compat
         qt6.qtdeclarative
         qt6.qtmultimedia
+        bibata-cursors
       ];
     };
 
