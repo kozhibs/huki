@@ -30,6 +30,9 @@
         };
 
         input = {
+          touchpad = {
+            tap = [];
+          };
           keyboard = {
             xkb = {
               layout = "us,ru";
