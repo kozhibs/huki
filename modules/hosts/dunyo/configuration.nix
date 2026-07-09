@@ -53,7 +53,7 @@
     users.users."taito" = {
       isNormalUser = true;
       description = "taito";
-      defaultShell = pkgs.fish;
+      shell = pkgs.fish;
       extraGroups = [ "networkmanager" "wheel" ];
       packages = with pkgs; [
         thunderbird
