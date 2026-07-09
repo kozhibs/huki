@@ -6,6 +6,7 @@
       settings = {
         Theme = {
           CursorTheme = "Adwaita";
+          CursorSize = 24;
         };
       };
       extraPackages = with pkgs; [
