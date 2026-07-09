@@ -29,6 +29,7 @@
 
       fuzzel
       fish
+      throne
       alacritty
       kitty
       starship     
