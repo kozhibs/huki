@@ -1,8 +1,8 @@
 { self, inputs, ... }: {
 
-  flake.nixosModules.dyukoConfiguration = { pkgs, lib, ... }: {
+  flake.nixosModules.dunyoConfig = { pkgs, lib, ... }: {
     imports = [
-      self.nixosModules.dyukoHardware
+      self.nixosModules.dunyoHardware
       self.nixosModules.niri
       self.nixosModules.sddm
       self.nixosModules.nh
