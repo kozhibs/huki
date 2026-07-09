@@ -2,7 +2,7 @@
   flake.nixosModules.starship = { config, pkgs, lib, ... }: {
     programs.starship.enable = true;
 
-    hjem.users.taito.xdg.configFile."starship.toml" = ''
+    hjem.users.taito.xdg.config."starship.toml" = ''
       add_newline = false;
 
       format = """
