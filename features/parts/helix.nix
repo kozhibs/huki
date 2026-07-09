@@ -23,7 +23,7 @@
       [editor.lsp]
       display-messages = true
 
-      [language]
+      [[language]]
       name = "nix"
       autoformat = true
 
