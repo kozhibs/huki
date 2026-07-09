@@ -6,15 +6,15 @@
       decorations = "none"
 
       [font.normal]
-      family = "IosevkaTerm Nerd Font"
+      family = "Iosevka Term Nerd Font"
       style = "DemiBold"
 
       [font.italic]
-      family = "IosevkaTerm Nerd Font"
+      family = "Iosevka Term Nerd Font"
       style = "Italic"
 
       [font.bold]
-      family = "IosevkaTerm Nerd Font"
+      family = "Iosevka Term Nerd Font"
       style = "Bold"
     '';
   };
