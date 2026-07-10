@@ -17,6 +17,7 @@
       self.nixosModules.minecraft
       self.nixosModules.kitty
       self.nixosModules.hardware-tweaks
+      self.nixosModules.kart
     ];
 
     networking.hostName = "dunyo";
