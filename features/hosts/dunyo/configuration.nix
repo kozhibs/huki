@@ -4,6 +4,7 @@
     imports = [
       self.nixosModules.dunyoHardware
       self.nixosModules.alacritty
+      self.nixosModules.boot
       self.nixosModules.niri
       self.nixosModules.sddm
       self.nixosModules.nh
