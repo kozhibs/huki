@@ -15,6 +15,7 @@
         ripgrep
         eza
         zoxide
+        yazi
 
         kdePackages.qtwayland
         kdePackages.qt5compat
