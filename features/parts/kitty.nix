@@ -5,5 +5,5 @@
       window_border_width 0
       draw_minimal_borders yes
     '';
-  }
+  };
 }
