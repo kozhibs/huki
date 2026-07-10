@@ -50,7 +50,7 @@
         fastfetch
         pfetch
 
-        dolphin
+        kdePackages.dolphin
       ];
 
       services.flatpak.enable = true;
