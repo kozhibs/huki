@@ -52,8 +52,8 @@
         style = "bold white"
 
         [character]
-        success_symbol = "[](white)"
-        error_symbol = "[](bold white)"
+        success_symbol = "[ ](white)"
+        error_symbol = "[ ](bold white)"
       '';
     };
 }
