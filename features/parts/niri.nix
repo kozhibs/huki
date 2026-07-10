@@ -60,30 +60,55 @@
             "Mod+D".spawn-sh = lib.getExe pkgs.fuzzel;
             "Mod+Space".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call launcher toggle";
 
-            "Mod+1".focus-workspace = "w0";
-            "Mod+2".focus-workspace = "w1";
-            "Mod+3".focus-workspace = "w2";
-            "Mod+4".focus-workspace = "w3";
-            "Mod+5".focus-workspace = "w4";
-            "Mod+6".focus-workspace = "w5";
-            "Mod+7".focus-workspace = "w6";
-            "Mod+8".focus-workspace = "w7";
-            "Mod+9".focus-workspace = "w8";
-            "Mod+0".focus-workspace = "w9";
+            "Mod+1".focus-workspace = "0";
+            "Mod+2".focus-workspace = "1";
+            "Mod+3".focus-workspace = "2";
+            "Mod+4".focus-workspace = "3";
+            "Mod+5".focus-workspace = "4";
+            "Mod+6".focus-workspace = "5";
+            "Mod+7".focus-workspace = "6";
+            "Mod+8".focus-workspace = "7";
+            "Mod+9".focus-workspace = "8";
+            "Mod+0".focus-workspace = "9";
 
-            "Mod+Shift+1".move-column-to-workspace = "w0";
-            "Mod+Shift+2".move-column-to-workspace = "w1";
-            "Mod+Shift+3".move-column-to-workspace = "w2";
-            "Mod+Shift+4".move-column-to-workspace = "w3";
-            "Mod+Shift+5".move-column-to-workspace = "w4";
-            "Mod+Shift+6".move-column-to-workspace = "w5";
-            "Mod+Shift+7".move-column-to-workspace = "w6";
-            "Mod+Shift+8".move-column-to-workspace = "w7";
-            "Mod+Shift+9".move-column-to-workspace = "w8";
-            "Mod+Shift+0".move-column-to-workspace = "w9";
+            "Mod+Shift+1".move-column-to-workspace = "0";
+            "Mod+Shift+2".move-column-to-workspace = "1";
+            "Mod+Shift+3".move-column-to-workspace = "2";
+            "Mod+Shift+4".move-column-to-workspace = "3";
+            "Mod+Shift+5".move-column-to-workspace = "4";
+            "Mod+Shift+6".move-column-to-workspace = "5";
+            "Mod+Shift+7".move-column-to-workspace = "6";
+            "Mod+Shift+8".move-column-to-workspace = "7";
+            "Mod+Shift+9".move-column-to-workspace = "8";
+            "Mod+Shift+0".move-column-to-workspace = "9";
 
             "Mod+F".maximize-column = [ ];
             "Mod+Shift+F".fullscreen-window = [ ];
+
+            "Mod+H".focus-column-left = [ ];
+            "Mod+L".focus-column-right = [ ];
+            "Mod+K".focus-window-up = [ ];
+            "Mod+J".focus-window-down = [ ];
+
+            "Mod+Left".focus-column-left = [ ];
+            "Mod+Right".focus-column-right = [ ];
+            "Mod+Up".focus-window-up = [ ];
+            "Mod+Down".focus-window-down = [ ];
+
+            "Mod+WheelScrollRight".focus-column-right = [ ];
+            "Mod+WheelScrollLeft".focus-column-left = [ ];
+            "Mod+Ctrl+WheelScrollRight".move-column-right = [ ];
+            "Mod+Ctrl+WheelScrollLeft".move-column-left = [ ];
+
+            "Mod+Shift+WheelScrollDown".focus-column-right = [ ];
+            "Mod+Shift+WheelScrollUp".focus-column-left = [ ];
+            "Mod+Ctrl+Shift+WheelScrollDown".move-column-right = [ ];
+            "Mod+Ctrl+Shift+WheelScrollUp".move-column-left = [ ];
+
+            "Mod+Minus".set-column-width = "-10%";
+            "Mod+Equal".set-column-width = "+10%";
+            "Mod+Shift+Minus".set-window-height = "-10%";
+            "Mod+Shift+Equal".set-window-height = "+10%";
           };
         };
       };
