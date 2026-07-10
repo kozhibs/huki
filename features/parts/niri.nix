@@ -59,6 +59,7 @@
             "Mod+B".spawn-sh = lib.getExe pkgs.firefox;
             "Mod+D".spawn-sh = lib.getExe pkgs.fuzzel;
             "Mod+Space".spawn-sh = "${lib.getExe self'.packages.myNoctalia} ipc call launcher toggle";
+            "Mod+E".spawn-sh = lib.getExe pkgs.dolphin
 
             "Mod+1".focus-workspace = "0";
             "Mod+2".focus-workspace = "1";
