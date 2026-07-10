@@ -45,6 +45,9 @@
         nil
         htop
         limine
+        fastfetch
+        pfetch
+        fitch
       ];
 
       services.flatpak.enable = true;
