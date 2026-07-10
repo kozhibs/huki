@@ -46,8 +46,11 @@
         nil
         htop
         limine
+
         fastfetch
         pfetch
+
+        dolphin
       ];
 
       services.flatpak.enable = true;
