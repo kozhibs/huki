@@ -19,11 +19,6 @@
       self.nixosModules.hardware-tweaks
     ];
 
-    boot.loader.systemd-boot.enable = true;
-    boot.loader.efi.canTouchEfiVariables = true;
-
-    boot.kernelPackages = pkgs.linuxPackages_latest;
-
     networking.hostName = "dunyo";
     networking.networkmanager.enable = true;
 
