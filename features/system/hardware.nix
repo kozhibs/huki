@@ -1,5 +1,5 @@
 { self, inputs, ... }: {
-  flake.nixosModules.hardware = { pkgs, ... }: {
+  flake.nixosModules.hardware-tweaks = { pkgs, ... }: {
     hardware = {
       opengl.enable = true;
       graphics = {

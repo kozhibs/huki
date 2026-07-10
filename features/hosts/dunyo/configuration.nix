@@ -15,6 +15,7 @@
       self.nixosModules.packages
       self.nixosModules.minecraft
       self.nixosModules.kitty
+      self.nixosModules.hardware-tweaks
     ];
 
     boot.loader.systemd-boot.enable = true;
