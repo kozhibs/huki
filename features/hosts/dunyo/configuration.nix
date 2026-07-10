@@ -14,6 +14,7 @@
       self.nixosModules.starship
       self.nixosModules.packages
       self.nixosModules.minecraft
+      self.nixosModules.kitty
     ];
 
     boot.loader.systemd-boot.enable = true;
